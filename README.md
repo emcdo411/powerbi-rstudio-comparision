@@ -4,13 +4,13 @@ This case study provides a detailed comparison of Microsoft Power BI and RStudio
 
 ---
 
-## 🧭 Overview of PowerBI and RStudio
+## 🧽 Overview of PowerBI and RStudio
 
-### 🔷 PowerBI
+### 🔹 PowerBI
 
 Microsoft Power BI is a premier business intelligence platform designed for accessibility, enabling non-technical users to create interactive dashboards and reports.
 
-### 🟣 RStudio
+### 🕘 RStudio
 
 RStudio, an open-source IDE for the R programming language, is the tool of choice for data scientists and researchers.
 
@@ -39,168 +39,47 @@ PowerBI is great for enterprise-ready dashboards. RStudio is more diverse and te
 
 ## 🏗️ **Tech Stack Comparison**
 
-### 💻 **🔷 PowerBI Tech Stack**
+### 💻 **🔹 PowerBI Tech Stack**
 
-```md
-🔧 Core Technologies:
-- Power Query
-- DAX (Data Analysis Expressions)
-- Microsoft Azure
-- SQL Server
-- ASP.NET
-- HTML5/CSS/JavaScript
+![Power Query](https://img.shields.io/badge/-Power%20Query-blue)
+![DAX](https://img.shields.io/badge/-DAX-informational)
+![Azure](https://img.shields.io/badge/-Azure-lightblue)
+![SQL Server](https://img.shields.io/badge/-SQL%20Server-red)
+![ASP.NET](https://img.shields.io/badge/-ASP.NET-purple)
+![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
+![HTML5](https://img.shields.io/badge/-HTML5-orange)
 
-🌐 External Integration:
-- R and Python scripts
-- APIs, MySQL, PostgreSQL, Google BigQuery
+### 💻 **🕘 RStudio Tech Stack**
 
-🖥️ Environment:
-- Windows-based (Power BI Desktop), cloud + mobile support
-```
-
----
-
-### 💻 **🟣 RStudio Tech Stack**
-
-```md
-🔧 Core Technologies:
-- R (base, stats, graphics)
-- R Markdown
-- Shiny
-- C++ (via Rcpp)
-- Python (via reticulate)
-- SQL
-
-🌐 External Integration:
-- RMySQL, ROracle
-- htmlwidgets
-- Spark, Hadoop support
-
-🖥️ Environment:
-- Cross-platform (Windows, macOS, Linux)
-- Server deployment via Posit Connect
-```
+![R](https://img.shields.io/badge/-R-276DC3?logo=r)
+![RMarkdown](https://img.shields.io/badge/-RMarkdown-darkgreen)
+![Shiny](https://img.shields.io/badge/-Shiny-blueviolet)
+![Rcpp](https://img.shields.io/badge/-Rcpp-grey)
+![reticulate](https://img.shields.io/badge/-reticulate-lightgrey)
+![SQL](https://img.shields.io/badge/-SQL-black)
+![Spark](https://img.shields.io/badge/-Spark-orange)
+![htmlwidgets](https://img.shields.io/badge/-htmlwidgets-cyan)
 
 ---
 
 ## 📦 **Installed Packages Comparison**
 
-| 🔹 Category                | 🟡 PowerBI                          | 🟣 RStudio Packages                     |
-| -------------------------- | ----------------------------------- | --------------------------------------- |
-| 📊 Data Visualization      | Built-in visuals                    | `ggplot2`, `plotly`, `lattice`, `ggvis` |
-| 🖼️ Interactive Dashboards | Power BI Dashboards, Slicers        | `shiny`, `flexdashboard`, `htmlwidgets` |
-| 📈 Statistical Analysis    | DAX, R/Python Integration           | `stats`, `tidymodels`, `caret`, `MASS`  |
-| 🤖 Machine Learning        | Azure ML, TensorFlow Integration    | `randomForest`, `xgboost`, `tidymodels` |
-| 🧹 Data Preprocessing      | Power Query                         | `dplyr`, `tidyr`, `data.table`          |
-| ⏱️ Time-Series Analysis    | Built-in Forecasting                | `forecast`, `tseries`, `xts`            |
-| 🗺️ Geospatial Analysis    | ArcGIS Maps, Power BI Maps          | `sf`, `leaflet`, `tmap`                 |
-| ❓ Missing Data Handling    | Power Query, R scripts (e.g., mice) | `mice`, `Amelia`, `missForest`          |
-| 📝 Report Generation       | Power BI Reports                    | `rmarkdown`, `knitr`, `bookdown`        |
-| 🗄️ Database Connectivity  | SQL, ODBC, API Connectors           | `DBI`, `RMySQL`, `ROracle`, `odbc`      |
+| 🔹 Category                | 🟡 PowerBI                | 🕘 RStudio Packages                                                                                                                                                                                                           |
+| -------------------------- | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 📊 Data Visualization      | Built-in visuals          | ![ggplot2](https://img.shields.io/badge/-ggplot2-1f77b4) ![plotly](https://img.shields.io/badge/-plotly-d62728) ![lattice](https://img.shields.io/badge/-lattice-ff7f0e) ![ggvis](https://img.shields.io/badge/-ggvis-9467bd) |
+| 🖼️ Interactive Dashboards | Dashboards, Slicers       | ![shiny](https://img.shields.io/badge/-shiny-17becf) ![flexdashboard](https://img.shields.io/badge/-flexdashboard-2ca02c) ![htmlwidgets](https://img.shields.io/badge/-htmlwidgets-cyan)                                      |
+| 📈 Statistical Analysis    | DAX, R/Python Integration | ![stats](https://img.shields.io/badge/-stats-8c564b) ![tidymodels](https://img.shields.io/badge/-tidymodels-1f77b4) ![caret](https://img.shields.io/badge/-caret-7f7f7f) ![MASS](https://img.shields.io/badge/-MASS-bcbd22)   |
+| 🤖 Machine Learning        | Azure ML, TensorFlow      | ![randomForest](https://img.shields.io/badge/-randomForest-ff9896) ![xgboost](https://img.shields.io/badge/-xgboost-98df8a) ![tidymodels](https://img.shields.io/badge/-tidymodels-1f77b4)                                    |
+| 🪑 Data Preprocessing      | Power Query               | ![dplyr](https://img.shields.io/badge/-dplyr-17becf) ![tidyr](https://img.shields.io/badge/-tidyr-e377c2) ![data.table](https://img.shields.io/badge/-data.table-7f7f7f)                                                      |
+| ⏱️ Time-Series Analysis    | Built-in Forecasting      | ![forecast](https://img.shields.io/badge/-forecast-1f77b4) ![tseries](https://img.shields.io/badge/-tseries-ff7f0e) ![xts](https://img.shields.io/badge/-xts-2ca02c)                                                          |
+| 🌍 Geospatial Analysis     | ArcGIS, Power BI Maps     | ![sf](https://img.shields.io/badge/-sf-1f77b4) ![leaflet](https://img.shields.io/badge/-leaflet-2ca02c) ![tmap](https://img.shields.io/badge/-tmap-d62728)                                                                    |
+| ❓ Missing Data Handling    | Power Query, R scripts    | ![mice](https://img.shields.io/badge/-mice-ff7f0e) ![Amelia](https://img.shields.io/badge/-Amelia-9467bd) ![missForest](https://img.shields.io/badge/-missForest-8c564b)                                                      |
+| 📍 Report Generation       | Power BI Reports          | ![rmarkdown](https://img.shields.io/badge/-rmarkdown-darkgreen) ![knitr](https://img.shields.io/badge/-knitr-7f7f7f) ![bookdown](https://img.shields.io/badge/-bookdown-2ca02c)                                               |
+| 📂 Database Connectivity   | SQL, ODBC, APIs           | ![DBI](https://img.shields.io/badge/-DBI-black) ![RMySQL](https://img.shields.io/badge/-RMySQL-blue) ![ROracle](https://img.shields.io/badge/-ROracle-red) ![odbc](https://img.shields.io/badge/-odbc-purple)                 |
 
 ---
 
-## 🧰 Harnessing RStudio for PowerBI-like Visualizations
-
-### 🔧 Interactive Dashboards with `shiny` + `plotly`
-
-```r
-library(shiny)
-library(plotly)
-...
-```
-
----
-
-### 🎨 Publication-Quality Visuals with `ggplot2`
-
-```r
-library(ggplot2)
-ggplot(mtcars, aes(x = factor(cyl))) +
-  geom_bar(fill = "#1E90FF") +
-  theme_minimal()
-```
-
----
-
-### 📝 Dynamic Reports with `rmarkdown`
-
-```r
-library(rmarkdown)
-render("report.Rmd", output_format = "html_document")
-```
-
----
-
-### 💾 Data Connectivity with `DBI` and `odbc`
-
-```r
-library(DBI)
-con <- dbConnect(odbc::odbc(), "DatabaseName")
-```
-
----
-
-## 🧪 Preparing for Interviews at PowerBI-Focused Organizations
-
-### 🔄 Highlight Transferable Skills
-
-* `ggplot2`, `shiny`, `plotly` mimic Power BI features
-* Build apps that resemble dashboards with slicers
-
----
-
-### 📚 Learn Power BI Basics
-
-* Practice DAX formulas: `SUM`, `AVERAGE`
-* Explore Power Query transformations
-
----
-
-### 🔗 Showcase R Visuals in Power BI
-
-```r
-library(plotly)
-plot_ly(data = iris, x = ~Sepal.Length, y = ~Sepal.Width)
-```
-
----
-
-## 🧠 Why RStudio Is Better (for Advanced Users)
-
-| Category                  | RStudio Wins With...                                     |
-| ------------------------- | -------------------------------------------------------- |
-| 🎯 Customization          | `ggplot2`, `shiny` allow pixel-level control             |
-| 🌐 Open-Source Power      | 20,000+ CRAN packages including `Bioconductor`, `igraph` |
-| 📊 Advanced Modeling      | `caret`, `mlr3`, `xgboost`, `tidymodels`                 |
-| 🔁 Reproducible Reporting | `rmarkdown`, `bookdown`                                  |
-| 🧪 Flexibility            | Works with `Python`, `C++`, `SQL`, and more              |
-
----
-
-## ✅ Conclusion
-
-**PowerBI** is best for:
-
-* Fast dashboarding
-* Business users
-* Microsoft-centered shops
-
-**RStudio** is best for:
-
-* Data science and machine learning
-* Custom dashboards
-* Academic and technical users
-
----
-
-## 📚 References
-
-* StackShare, SelectHub, TheNineHertz, Appsilon, Microsoft Learn, Posit Community, R-bloggers, TrustRadius, G2, Towards Data Science
-
----
-
-Would you like this exported into a polished `README.md` format with markdown banners and GitHub badges next?
+Want this exported as a stylized GitHub-ready `README.md` with badges and markdown formatting? Just say the word!
 
 
 
